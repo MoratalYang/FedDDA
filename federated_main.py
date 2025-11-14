@@ -223,7 +223,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--trainer", type=str, default="FEDDDA", help="name of trainer, choose from: FEDDDA")
-    parser.add_argument("--dataset", type=str, default="pacs", help="name of dataset, choose from: "
+    parser.add_argument("--dataset", type=str, default="Office31", help="name of dataset, choose from: "
                                                                     " domainnet pacs OfficeHome  Office31 ")
     parser.add_argument("--backbone", type=str, default="ViT-B/16", help="name of CNN backbone")
     parser.add_argument('--device_id', type=int, default=0, help='The Device Id for Experiment')
